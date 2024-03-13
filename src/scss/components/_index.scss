@@ -1,1 +1,6 @@
-@use "badge";
+@forward 'welcome';
+@forward 'co-workers';
+@forward 'tasks';
+@forward 'records';
+
+// @use "badge";
