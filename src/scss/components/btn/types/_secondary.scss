@@ -1,0 +1,21 @@
+@if index($btn-types, secondary) {
+
+    /* ==Secondary== */
+    .btn--secondary {
+        &:active {
+            color: #d14a00;
+        }
+
+        @media (hover: hover) {
+
+            &:hover,
+            &:focus {
+                background-color: #f15c27;
+            }
+        }
+
+        &[disabled] {
+            background-color: #b5b5be;
+        }
+    }
+}
